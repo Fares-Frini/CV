@@ -165,7 +165,7 @@ button:hover {
 
 .checkbtn {
   font-size: 30px;
-  color: black;
+  color: var(--fonce-color);
   float: right;
   line-height: 80px;
   margin-right: 40px;
@@ -443,6 +443,7 @@ section {
 }
 .hidden .logos {
   display: flex;
+  
 }
 .hidden .logos img {
   width: 150px;
@@ -459,36 +460,62 @@ section {
 .hidden .names h2 {
   margin: 0 50px;
 }
+.logos img
+{
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+  .logo:nth-child(1)
+{
+  animation: float 1.8s infinite ease-in-out;
+}
 .logo:nth-child(2) {
   transition-delay: 200ms;
+  animation: float 2s infinite ease-in-out;
+  animation-delay: 200ms;
 }
 
 .logo:nth-child(3) {
   transition-delay: 400ms;
+  animation: float 2s infinite ease-in-out;
+  animation-delay: 400ms;
 }
 
 .logo:nth-child(4) {
   transition-delay: 600ms;
+  animation: float 2s infinite ease-in-out;
+  animation-delay: 600ms;
 }
 
 .logo:nth-child(5) {
   transition-delay: 800ms;
+  animation: float 2s infinite ease-in-out;
+  animation-delay: 800ms;
 }
 
 .logo:nth-child(6) {
   transition-delay: 1000ms;
+  animation: float 2s infinite ease-in-out;
+  animation-delay: 1000ms;
 }
 .name:nth-child(2) {
   transition-delay: 200ms;
+  animation: float 2s infinite ease-in-out;
+  animation-delay: 200ms;
 }
 .name:nth-child(3) {
   transition-delay: 400ms;
+  animation: float 2s infinite ease-in-out;
+  animation-delay: 400ms;
 }
 .name:nth-child(4) {
   transition-delay: 600ms;
+  animation: float 2s infinite ease-in-out;
+  animation: delay 600m; ;
 }
 .name:nth-child(5) {
   transition-delay: 800ms;
+  animation: float 2s infinite ease-in-out;
+  animation-delay: 800ms;
 }
 .first2
 {
@@ -879,6 +906,10 @@ section {
   text-align: center;
 }
 @media (max-width: 952px) {
+  .box-profil
+  {
+    opacity: 1;
+  }
   label.logo {
     font-size: 30px;
     padding-left: 50px;
